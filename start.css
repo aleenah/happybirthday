@@ -44,6 +44,7 @@ button:hover {
     text-align: center;
     font-weight: 400;
     font-style: normal;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .form-container {
