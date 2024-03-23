@@ -84,10 +84,11 @@ button:hover {
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 3em; /* Adjust as needed */
+    font-size: 4em; /* Adjust as needed */
   }
 
   .button-style {
     font-size: 14px; /* Adjust as needed */
+    border: 2px;
   }
 }
