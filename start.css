@@ -1,3 +1,12 @@
+body {
+    background-color: #E4FFF7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
 .font {
     font-family: "beth-ellen", sans-serif;
     font-weight: 400;
@@ -9,10 +18,21 @@
     font-weight: 400;
     font-style: normal;
     color: pink;
-    background-color: blue;
+    text-align: center;
 }
 
-.input-text {
+button {
+    background-color: #f9fff2;
+    border: 5px solid #6EC0A9;
+    border-radius: 16px;
+}
+
+button:hover {
+    border-color: #5362F6;
+    background-color: white;
+  }
+
+.enter-text {
     text-align: center;
     font-family: "beth-ellen", sans-serif;
     font-weight: 400;

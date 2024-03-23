@@ -20,7 +20,7 @@
                 redirectPage = "hint2.html";
                 break;
             default:
-                errorMessage.textContent = "Incorrect passkey";
+                errorMessage.textContent = "Incorrect!";
                 return;
         }
 
@@ -31,9 +31,12 @@
 <body>
     <div class="form-container">
     <form onsubmit="event.preventDefault(); redirectToPage();">
-        <p class="input-text" for="pageInput">Enter hint key:</p> 
+        <p class="enter-text" for="pageInput">Enter hint key:</p> 
         <input class="form" type="text" id="pageInput" name="pageInput" required>
+        <br><br>
+        <div class="submit-button">
         <button class="submit-button" type="submit">Submit</button>
+        </div>
     </form>
     <p id="errorMessage" style="color: red;"></p>
 </body>
