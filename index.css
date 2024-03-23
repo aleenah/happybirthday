@@ -53,8 +53,8 @@ h1 {
   font-family: "Archivo Black", "Archivo", sans-serif;
   font-weight: normal;
   display: block;
-  width: 666px;
-  max-width: 80vw;
+  /* width: 666px;
+  max-width: 80vw; */
   /* min-height: 90px;
   height: auto; */
   text-align: center;
