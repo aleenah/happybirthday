@@ -72,7 +72,7 @@ h1 {
 
 button {
   background-color: #f9fff2;
-  border: 10px solid #6EC0A9;
+  border: 5px solid #6EC0A9;
   border-radius: 16px;
 }
 
@@ -84,7 +84,7 @@ button:hover {
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 2em; /* Adjust as needed */
+    font-size: 3em; /* Adjust as needed */
   }
 
   .button-style {
