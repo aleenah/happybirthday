@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/gpi8lrr.css">
+    <link rel="stylesheet" href="start.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>peepee poopoo</title>
+<script>
+    function redirectToPage() {
+        var userInput = document.getElementById("pageInput").value.trim().toLowerCase();
+        var redirectPage;
+        var errorMessage = document.getElementById("errorMessage");
+
+        switch (userInput) {
+            case "start":
+                redirectPage = "hint1.html";
+                break;
+            case "hint2":
+                redirectPage = "hint2.html";
+                break;
+            default:
+                errorMessage.textContent = "Incorrect passkey";
+                return;
+        }
+
+        window.location.href = redirectPage;
+    }
+</script>
+</head>
+<body>
+    <div class="form-container">
+    <form onsubmit="event.preventDefault(); redirectToPage();">
+        <p class="input-text" for="pageInput">Enter hint key:</p> 
+        <input class="form" type="text" id="pageInput" name="pageInput" required>
+        <button class="submit-button" type="submit">Submit</button>
+    </form>
+    <p id="errorMessage" style="color: red;"></p>
+</body>
+</div>
+</html>
