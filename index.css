@@ -51,7 +51,7 @@ body {
 }
 
 .hint-text {
-  font-size:30px;
+  font-size: 30px;
   text-align: center;
   font-weight: 400;
   font-style: normal;
@@ -66,6 +66,9 @@ h1 {
   font-family: "Archivo Black", "Archivo", sans-serif;
   font-weight: normal;
   text-align: center;
+}
+.wordle-hint {
+  font-size: 25px;
 }
 
 .button-container {
