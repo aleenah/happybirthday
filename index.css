@@ -105,6 +105,10 @@ button:hover {
   }
 }
 
-img {
+.spotify-img {
   width: 40%;
+}
+
+.paul-img {
+  width: 30%
 }
