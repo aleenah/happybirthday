@@ -114,11 +114,5 @@ button:hover {
 }
 
 .treasure-img {
-  width: 60%
-}
-
-@media only screen and (max-width: 600px) {
-  .treasure-img {
-    width: 2em;
-  }
+  height:10%
 }
